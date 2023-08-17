@@ -6,12 +6,12 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  background: #f7f7f7;
+  background: #282828;
   font-size: 1.5rem;
 }
 .container {
   background: #fff;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
   text-align: center;
   max-width: 600px;
   margin: 5rem auto;
@@ -43,6 +43,11 @@ form {
 }
 .submit-button:hover {
   background: #025ec1;
+}
+.city-name {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 3rem;
 }
 .icon img {
   width: 10rem;
