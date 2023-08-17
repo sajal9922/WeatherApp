@@ -2,18 +2,27 @@ html {
   font-size: 62.5%;
 }
 body {
+  background-image: url(backgroung.jpg);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  background: #282828;
   font-size: 1.5rem;
+  color: #fff;
 }
 .container {
-  background: #fff;
+  background: rgb(9, 3, 97);
+  background: linear-gradient(
+    159deg,
+    rgba(9, 3, 97, 0.5) 0%,
+    rgba(35, 123, 159, 0.5) 48%
+  );
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
   text-align: center;
-  max-width: 600px;
+  max-width: 500px;
   margin: 5rem auto;
   border-radius: 1rem;
   padding: 2rem;
@@ -24,15 +33,25 @@ form {
   align-items: center;
   margin-bottom: 2rem;
 }
+h1 {
+  text-shadow: 0 0 2px rgba(8, 8, 8, 0.3);
+}
 .city-input {
   padding: 1rem;
   outline: none;
   border: none;
+  border-radius: 0.5rem;
   font-size: 1.8rem;
   width: 60%;
+  background: transparent;
+  margin-right: 0.5rem;
+  color: #fff;
+}
+.city-input::placeholder {
+  color: #fff;
 }
 .submit-button {
-  background: #007bff;
+  background: #066880;
   border: none;
   color: #fff;
   padding: 1rem 2rem;
@@ -42,7 +61,7 @@ form {
   transition: background 0.3s ease;
 }
 .submit-button:hover {
-  background: #025ec1;
+  background: #02576c;
 }
 .city-name {
   font-size: 3rem;
@@ -64,6 +83,7 @@ form {
 .description {
   font-size: 2.4rem;
   margin-bottom: 2rem;
+  text-transform: capitalize;
 }
 
 .details {
@@ -75,7 +95,12 @@ form {
 
 .details > div {
   padding: 2rem;
-  background-color: #f1f1f1;
+  background: rgb(9, 3, 97);
+  background: linear-gradient(
+    0deg,
+    rgba(9, 3, 97, 0.5) 0%,
+    rgba(35, 123, 159, 0.5) 48%
+  );
   margin: 1rem;
   flex: 1;
   border-radius: 0.5rem;
