@@ -7,10 +7,10 @@ Getting weather using open weather API.
 
 ## Code
 
--HTML
--CSS
--JavaScript
+- HTML
+- CSS
+- JavaScript
 
 ## API
 
--Open weather API
+- Open weather API
